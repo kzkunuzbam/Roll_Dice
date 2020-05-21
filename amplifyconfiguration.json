@@ -1,0 +1,30 @@
+{
+    "UserAgent": "aws-amplify-cli/2.0",
+    "Version": "1.0",
+    "api": {
+        "plugins": {
+            "awsAPIPlugin": {
+                "rolldice": {
+                    "endpointType": "GraphQL",
+                    "endpoint": "https://2th4g2a7bnf5rfimr2donyn44e.appsync-api.us-east-1.amazonaws.com/graphql",
+                    "region": "us-east-1",
+                    "authorizationType": "API_KEY",
+                    "apiKey": "da2-alw2cll6kjfkpbeh3cg2myyptu"
+                }
+            }
+        }
+    },
+    "analytics": {
+        "plugins": {
+            "awsPinpointAnalyticsPlugin": {
+                "pinpointAnalytics": {
+                    "appId": "7e24d9219c004bfea2e6a23a1b2f6f3a",
+                    "region": "us-east-1"
+                },
+                "pinpointTargeting": {
+                    "region": "us-east-1"
+                }
+            }
+        }
+    }
+}

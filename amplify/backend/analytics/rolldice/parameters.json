@@ -1,0 +1,21 @@
+{
+    "appName": "rolldice",
+    "roleName": "pinpointLambdaRoleb9c0309f",
+    "cloudformationPolicyName": "cloudformationPolicyb9c0309f",
+    "cloudWatchPolicyName": "cloudWatchPolicyb9c0309f",
+    "pinpointPolicyName": "pinpointPolicyb9c0309f",
+    "authPolicyName": "pinpoint_amplify_b9c0309f",
+    "unauthPolicyName": "pinpoint_amplify_b9c0309f",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "rolldicenv": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-rolldice-rolldicenv-214727-authRole",
+            "UnauthRoleArn": "arn:aws:iam::243250083352:role/amplify-rolldice-rolldicenv-214727-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::243250083352:role/amplify-rolldice-rolldicenv-214727-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-rolldice-rolldicenv-214727-deployment",
+            "UnauthRoleName": "amplify-rolldice-rolldicenv-214727-unauthRole",
+            "StackName": "amplify-rolldice-rolldicenv-214727",
+            "StackId": "arn:aws:cloudformation:us-east-1:243250083352:stack/amplify-rolldice-rolldicenv-214727/9acce4f0-92d5-11ea-815c-0e05d1a3c102",
+            "AmplifyAppId": "d28zzcanwf8235"
+        },
+        "categories": {
+            "auth": {
+                "cognito0430e6da": {}
+            },
+            "notifications": {
+                "Pinpoint": {
+                    "Name": "rolldice-rolldicenv",
+                    "Id": "7e24d9219c004bfea2e6a23a1b2f6f3a",
+                    "Region": "us-east-1"
+                }
+            }
+        }
+    }
+}

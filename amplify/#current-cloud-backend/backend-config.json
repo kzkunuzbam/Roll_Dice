@@ -1,0 +1,40 @@
+{
+    "api": {
+        "rolldice": {
+            "service": "AppSync",
+            "providerPlugin": "awscloudformation",
+            "output": {
+                "authConfig": {
+                    "additionalAuthenticationProviders": [],
+                    "defaultAuthentication": {
+                        "authenticationType": "API_KEY",
+                        "apiKeyConfig": {
+                            "description": "test",
+                            "apiKeyExpirationDays": "30"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "auth": {
+        "cognito0430e6da": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation"
+        }
+    },
+    "analytics": {
+        "rolldice": {
+            "service": "Pinpoint",
+            "providerPlugin": "awscloudformation"
+        }
+    },
+    "notifications": {
+        "rolldice": {
+            "service": "Pinpoint",
+            "channels": [
+                "APNS"
+            ]
+        }
+    }
+}

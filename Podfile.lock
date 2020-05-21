@@ -1,0 +1,61 @@
+PODS:
+  - AppSyncRealTimeClient (1.1.6):
+    - Starscream (= 3.0.6)
+  - AWSAppSync (3.1.2):
+    - AppSyncRealTimeClient (~> 1.1)
+    - AWSCore (~> 2.13.0)
+    - ReachabilitySwift (~> 5.0.0)
+    - SQLite.swift (~> 0.12.2)
+  - AWSAuthCore (2.13.3):
+    - AWSCore (= 2.13.3)
+  - AWSCognitoIdentityProvider (2.13.3):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.13.3)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.13.3)
+  - AWSMobileClient (2.13.3):
+    - AWSAuthCore (= 2.13.3)
+    - AWSCognitoIdentityProvider (= 2.13.3)
+  - AWSPinpoint (2.13.3):
+    - AWSCore (= 2.13.3)
+  - ReachabilitySwift (5.0.0)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - Starscream (3.0.6)
+
+DEPENDENCIES:
+  - AWSAppSync
+  - AWSMobileClient
+  - AWSPinpoint
+
+SPEC REPOS:
+  trunk:
+    - AppSyncRealTimeClient
+    - AWSAppSync
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - AWSPinpoint
+    - ReachabilitySwift
+    - SQLite.swift
+    - Starscream
+
+SPEC CHECKSUMS:
+  AppSyncRealTimeClient: 4a2ccdc1722750a1f4d76e216f9bfb1cf12f10de
+  AWSAppSync: 4b91c48712913ca4f2bb38273280190e65d59a45
+  AWSAuthCore: 93b71ac38596e75790015c7299c725bb09ae1d5f
+  AWSCognitoIdentityProvider: 3480819d983e78eda7a43e141273756784be30cb
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: fc361166b595e3c0183c55987743b295646c39d2
+  AWSMobileClient: 9149b664d1a89279bd49d36598c7afc38a63d7d1
+  AWSPinpoint: 9f5226cc5478aab9bea16c76f318f6fdd7e8af97
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+
+PODFILE CHECKSUM: e3765d723fcf38c133fb6cfd7909834b732e371f
+
+COCOAPODS: 1.9.1

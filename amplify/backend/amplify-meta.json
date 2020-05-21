@@ -1,0 +1,99 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-rolldice-rolldicenv-214727-authRole",
+			"UnauthRoleArn": "arn:aws:iam::243250083352:role/amplify-rolldice-rolldicenv-214727-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::243250083352:role/amplify-rolldice-rolldicenv-214727-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "amplify-rolldice-rolldicenv-214727-deployment",
+			"UnauthRoleName": "amplify-rolldice-rolldicenv-214727-unauthRole",
+			"StackName": "amplify-rolldice-rolldicenv-214727",
+			"StackId": "arn:aws:cloudformation:us-east-1:243250083352:stack/amplify-rolldice-rolldicenv-214727/9acce4f0-92d5-11ea-815c-0e05d1a3c102",
+			"AmplifyAppId": "d28zzcanwf8235"
+		}
+	},
+	"api": {
+		"rolldice": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "API_KEY",
+						"apiKeyConfig": {
+							"description": "test",
+							"apiKeyExpirationDays": "30"
+						}
+					}
+				},
+				"GraphQLAPIIdOutput": "qzjytbwnzvaglddzs77i4af4ym",
+				"GraphQLAPIEndpointOutput": "https://2th4g2a7bnf5rfimr2donyn44e.appsync-api.us-east-1.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-alw2cll6kjfkpbeh3cg2myyptu"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-rolldice-rolldicenv-214727-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apirolldice"
+			},
+			"lastPushTimeStamp": "2020-05-11T09:35:51.721Z",
+			"lastPushDirHash": "0i6c4NGnDUr0dHlMZpHR7OqtANc="
+		}
+	},
+	"auth": {
+		"cognito0430e6da": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-rolldice-rolldicenv-214727-deployment/amplify-cfn-templates/auth/cognito0430e6da-cloudformation-template.yml",
+				"logicalId": "authcognito0430e6da"
+			},
+			"lastPushTimeStamp": "2020-05-11T09:35:51.725Z",
+			"output": {
+				"IdentityPoolId": "us-east-1:08c78639-7631-4c28-a78f-118d781b3d0c",
+				"IdentityPoolName": "rolldice_identitypool_ffa05368__rolldicenv"
+			},
+			"lastPushDirHash": "Dot9PHtnPlh4+DSA1mJ2MJBerJA="
+		}
+	},
+	"analytics": {
+		"rolldice": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-rolldice-rolldicenv-214727-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+				"logicalId": "analyticsrolldice"
+			},
+			"lastPushTimeStamp": "2020-05-11T09:35:51.725Z",
+			"output": {
+				"appName": "rolldice-rolldicenv",
+				"Region": "us-east-1",
+				"Id": "7e24d9219c004bfea2e6a23a1b2f6f3a"
+			},
+			"lastPushDirHash": "8U99BPH1FQSCLkpHzR1H9GQEVaU="
+		}
+	},
+	"notifications": {
+		"rolldice": {
+			"service": "Pinpoint",
+			"output": {
+				"Id": "7e24d9219c004bfea2e6a23a1b2f6f3a",
+				"Name": "rolldice-rolldicenv",
+				"Region": "us-east-1",
+				"APNS": {
+					"ApplicationId": "7e24d9219c004bfea2e6a23a1b2f6f3a",
+					"CreationDate": "2020-05-11T11:36:31.478Z",
+					"DefaultAuthenticationMethod": "Key",
+					"Enabled": true,
+					"HasCredential": false,
+					"HasTokenKey": true,
+					"Id": "apns",
+					"IsArchived": false,
+					"LastModifiedDate": "2020-05-11T11:36:31.478Z",
+					"Platform": "APNS",
+					"Version": 1
+				}
+			},
+			"lastPushTimeStamp": "2020-05-11T11:35:13.254Z"
+		}
+	}
+}

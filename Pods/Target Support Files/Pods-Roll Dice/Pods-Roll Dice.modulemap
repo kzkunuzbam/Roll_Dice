@@ -1,0 +1,6 @@
+framework module Pods_Roll_Dice {
+  umbrella header "Pods-Roll Dice-umbrella.h"
+
+  export *
+  module * { export * }
+}
